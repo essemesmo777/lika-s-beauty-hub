@@ -32,6 +32,7 @@ export function Gallery() {
   const [index, setIndex] = useState<number | null>(null);
 
   const visible = photos.filter((p) => filter === "Todos" || p.category === filter);
+  const current = index === null ? undefined : visible[index];
 
   const close = useCallback(() => setIndex(null), []);
   const next = useCallback(
@@ -112,7 +113,7 @@ export function Gallery() {
         </div>
       </div>
 
-      {index !== null ? (
+      {current ? (
         <div
           role="dialog"
           aria-modal="true"
@@ -121,8 +122,8 @@ export function Gallery() {
           onClick={close}
         >
           <img
-            src={visible[index].src}
-            alt={visible[index].alt}
+            src={current.src}
+            alt={current.alt}
             className="max-h-[82vh] w-auto max-w-full rounded-2xl object-contain"
             onClick={(e) => e.stopPropagation()}
           />
@@ -157,7 +158,7 @@ export function Gallery() {
             <ChevronRight className="size-5" />
           </button>
           <p className="absolute bottom-6 left-0 right-0 text-center text-xs uppercase tracking-[0.25em] text-background">
-            {visible[index].category}
+            {current.category}
           </p>
         </div>
       ) : null}
