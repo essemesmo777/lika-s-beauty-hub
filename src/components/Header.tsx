@@ -63,7 +63,7 @@ export function Header() {
             aria-expanded={open}
             className="grid size-11 place-items-center rounded-full border border-border text-foreground lg:hidden"
           >
-            {open ? <Menu className="size-5" /> : <Menu className="size-5" />}
+            <Menu className="size-5" aria-hidden="true" />
           </button>
         </div>
       </div>
