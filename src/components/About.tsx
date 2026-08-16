@@ -1,5 +1,5 @@
 import { BookOpen, Heart, Home, Sparkles, UserRound } from "lucide-react";
-import sobreImg from "@/assets/sobre.jpg";
+import sobreAsset from "@/assets/sobre-lika.png.asset.json";
 import { Reveal } from "@/components/Reveal";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 
@@ -19,11 +19,11 @@ export function About() {
           <div className="relative">
             <div className="overflow-hidden rounded-[2.5rem] rounded-bl-[6rem] shadow-card">
               <img
-                src={sobreImg}
+                src={sobreAsset.url}
                 alt="Profissional responsável pela Lika's Cia da Beleza no espaço de atendimento"
                 loading="lazy"
-                width={1008}
-                height={1264}
+                width={1456}
+                height={1092}
                 className="h-[26rem] w-full object-cover sm:h-[34rem]"
               />
             </div>
