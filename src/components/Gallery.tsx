@@ -22,7 +22,7 @@ const photos = [
   { src: maquiagem, category: "Estética", alt: "Produtos de maquiagem em tons nude" },
   { src: cabelo, category: "Bastidores", alt: "Atendimento de cabelo em andamento" },
   { src: depilacao, category: "Estética", alt: "Materiais preparados para depilação" },
-  { src: sobre, category: "Bastidores", alt: "Profissional responsável pelo espaço de beleza" },
+  { src: sobreLikaAsset.url, category: "Bastidores", alt: "Profissional responsável pelo espaço de beleza" },
   { src: hero, category: "Ambiente", alt: "Recepção com flores e detalhes dourados" },
 ];
 
