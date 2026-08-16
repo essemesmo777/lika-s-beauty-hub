@@ -8,6 +8,7 @@ import depilacao from "@/assets/depilacao.jpg";
 import maquiagem from "@/assets/maquiagem.jpg";
 import ambiente from "@/assets/ambiente.jpg";
 import sobre from "@/assets/sobre.jpg";
+import sobreLikaAsset from "@/assets/sobre-lika.png.asset.json";
 import hero from "@/assets/hero.jpg";
 import { Reveal, SectionTitle } from "@/components/Reveal";
 import { cn } from "@/lib/utils";
