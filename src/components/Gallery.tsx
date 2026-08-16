@@ -7,7 +7,7 @@ import cabelo from "@/assets/cabelo.jpg";
 import depilacao from "@/assets/depilacao.jpg";
 import maquiagem from "@/assets/maquiagem.jpg";
 import ambiente from "@/assets/ambiente.jpg";
-import sobreLikaAsset from "@/assets/sobre-lika.png.asset.json";
+import sobre from "@/assets/sobre.jpg";
 import hero from "@/assets/hero.jpg";
 import { Reveal, SectionTitle } from "@/components/Reveal";
 import { cn } from "@/lib/utils";
@@ -17,11 +17,15 @@ const photos = [
   { src: unhas, category: "Unhas", alt: "Unhas com esmaltação nude e acabamento brilhante" },
   { src: cilios, category: "Cílios", alt: "Olhar com extensão de cílios volume" },
   { src: pele, category: "Pele", alt: "Sala de tratamentos para pele" },
-  { src: ambiente, category: "Ambiente", alt: "Ambiente do espaço de beleza com poltronas rosé e dourado" },
+  {
+    src: ambiente,
+    category: "Ambiente",
+    alt: "Ambiente do espaço de beleza com poltronas rosé e dourado",
+  },
   { src: maquiagem, category: "Estética", alt: "Produtos de maquiagem em tons nude" },
   { src: cabelo, category: "Bastidores", alt: "Atendimento de cabelo em andamento" },
   { src: depilacao, category: "Estética", alt: "Materiais preparados para depilação" },
-  { src: sobreLikaAsset.url, category: "Bastidores", alt: "Profissional responsável pelo espaço de beleza" },
+  { src: sobre, category: "Bastidores", alt: "Profissional responsável pelo espaço de beleza" },
   { src: hero, category: "Ambiente", alt: "Recepção com flores e detalhes dourados" },
 ];
 
