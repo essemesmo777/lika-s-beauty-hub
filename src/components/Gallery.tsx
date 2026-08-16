@@ -7,7 +7,7 @@ import cabelo from "@/assets/cabelo.jpg";
 import depilacao from "@/assets/depilacao.jpg";
 import maquiagem from "@/assets/maquiagem.jpg";
 import ambiente from "@/assets/ambiente.jpg";
-import sobre from "@/assets/sobre.jpg";
+import sobreLikaAsset from "@/assets/sobre-lika.png.asset.json";
 import hero from "@/assets/hero.jpg";
 import { Reveal, SectionTitle } from "@/components/Reveal";
 import { cn } from "@/lib/utils";
@@ -21,7 +21,7 @@ const photos = [
   { src: maquiagem, category: "Estética", alt: "Produtos de maquiagem em tons nude" },
   { src: cabelo, category: "Bastidores", alt: "Atendimento de cabelo em andamento" },
   { src: depilacao, category: "Estética", alt: "Materiais preparados para depilação" },
-  { src: sobre, category: "Bastidores", alt: "Profissional responsável pelo espaço de beleza" },
+  { src: sobreLikaAsset.url, category: "Bastidores", alt: "Profissional responsável pelo espaço de beleza" },
   { src: hero, category: "Ambiente", alt: "Recepção com flores e detalhes dourados" },
 ];
 
