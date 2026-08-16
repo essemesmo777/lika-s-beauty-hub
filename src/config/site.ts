@@ -6,6 +6,7 @@
 export const site = {
   name: "Lika's Cia da Beleza",
   tagline: "Unhas | Cílios | Pele | Cabelo",
+  url: "https://lika-s-beauty-hub.vercel.app",
   instagramUser: "@likasciadabeleza",
   instagramUrl: "https://www.instagram.com/likasciadabeleza/",
   address: "Rua do Comércio, 4273 – Parque Eldorado",

@@ -30,11 +30,11 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: title },
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/" },
+      { property: "og:url", content: site.url },
       { property: "og:locale", content: "pt_BR" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: site.url }],
     scripts: [
       {
         type: "application/ld+json",
@@ -42,6 +42,7 @@ export const Route = createFileRoute("/")({
           "@context": "https://schema.org",
           "@type": "BeautySalon",
           name: site.name,
+          url: site.url,
           description,
           address: {
             "@type": "PostalAddress",
