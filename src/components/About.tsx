@@ -1,5 +1,5 @@
 import { BookOpen, Heart, Home, Sparkles, UserRound } from "lucide-react";
-import sobreImg from "@/assets/sobre.jpg";
+import sobreAsset from "@/assets/sobre-lika.png.asset.json";
 import { Reveal } from "@/components/Reveal";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 
